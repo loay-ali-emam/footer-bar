@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ingaab</title>
+		<meta charset = 'utf-8' />
+		<meta name = 'viewport' content = 'width=device-width,initial-scale=1.0' />
+		<link rel = 'stylesheet' href = 'fontawesome-free-5.14.0-web/fontawesome-free-5.14.0/css/all.min.css' />
+		<style>
+		
+			@media(min-width:700px) {
+			
+				.phone-only {
+				
+					display:none;
+				}
+			}
+		
+			#special-bar ul {
+			
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				list-style: none;
+				width: 100vw;
+				padding: 0;
+				overflow: auto;
+				min-width: 400px;
+				background: #EEE;
+				box-shadow: 0 0 100000px 1px #AAA;
+				border-top: 1px solid #222;
+				border-bottom: 1px solid #222;
+			}
+			
+			#special-bar {
+		
+			  position: fixed;
+			  bottom: 10px;
+			  left: 0;
+			  width: 100vw;
+			  overflow:auto;
+			}
+			
+			#special-bar a {
+			
+				text-decoration: none;
+				color: #4d4636;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-wrap: wrap;
+				padding: 15px 0;
+				text-align:center;
+			}
+			
+			#special-bar i {
+			
+				font-size: 25px;
+				display: block;
+				width: 100%;
+			}
+			
+			#special-bar h4 {
+			
+				margin:0;
+			}
+					
+		</style>
+	</head>
+	<body>
+		
+		<section id = 'special-bar' class = 'phone-only'>
+			<ul>
+				<li>
+					<a href = '#'>
+						<i class = 'fas fa-home'></i>
+						<h4>الرئيسية</h4>
+					</a>
+				</li>
+				<li>
+					<a href = '#'>
+						<i class = 'far fa-user'></i>
+						<h4>حسابى</h4>
+					</a>
+				</li>
+				<li>
+					<a href = '#'>
+						<i class = 'fas fa-search'></i>
+						<h4>البحث</h4>
+					</a>
+				</li>
+				<li>
+					<a href = '#'>
+						<i class = 'fas fa-shopping-basket'></i>
+						<h4>المتجر</h4>
+					</a>
+				</li>
+				<li>
+					<a href = '#'>
+						<i class = 'far fa-heart'></i>
+						<h4>المفضلة</h4>
+					</a>
+				</li>
+			</ul>
+		</section>
+		
+	</body>
+</html>
